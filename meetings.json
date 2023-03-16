@@ -35,6 +35,18 @@
             "name": "Coffee break",
             "duration": "10min",
             "isOnline": "false"
+        },
+        "2023-03-21T11:30:00":{
+            "id": "263",
+            "name": "New team member welcoming",
+            "duration": "15min",
+            "isOnline": "false"
+        },
+        "2023-06-06T11:00:00":{
+            "id": "777",
+            "name": "Release 2.0 Discussion",
+            "duration": "50min",
+            "isOnline": "true"
         }
 
     }
