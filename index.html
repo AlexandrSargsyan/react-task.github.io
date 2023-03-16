@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Task</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Hi! Here you can find practical task description</h1>
+          <div>
+            <hr />
+            <h2>Task</h2>
+            <p>Create React Application</p>
+            <p>At main page user should see their meetings history. Data can be fetched from here: 
+                <a href="https://alexandrsargsyan.github.io/react-task.github.io/meetings.json" target="_blank">
+                    https://alexandrsargsyan.github.io/react-task.github.io/meetings.json
+                </a>
+            </p>
+            <p>In this JSON keys are datetimes indicating meeting start time.Dates represented in 
+                <strong>YYYY-MM-DDTHH:mm:ss </strong> format</p>
+            <ul>
+                <li>User should see all meetings in ascending order groupped by day</li>
+                <li>For every group user should see how many meetings in that day</li>
+                <li>Every group name should be formatted in following format <strong>Month name day, year</strong> <i>
+                    example: Feb 25, 2022
+                </i></li>
+                <li>Under each group every meeting for that day should be in ascending order</li>
+                <li>Every meeting has duration and name, user should be able to see start time, end time and name of the meeting</li>
+                <li>Duration represented in JSON with following format: <strong>amount+unit</strong>
+                <i>
+                    example: 15min, 1h, 1h 30min
+                </i>
+                <li>User should be able to see past and upcoming meetings in respective groups</li>
+            </li>
+            <br />
+            <p>Page should have filter section where user should be able to filter meetings by following criterias:</p>
+           <ul>
+            <li>
+                Date range (start time and end time)
+            </li>
+            <li>
+                Upcoming meetings
+            </li>
+            <li>
+                Meetings in this week
+            </li>
+            <li>
+                Meetings which duration less than 30min
+            </li>
+            <li>
+                Online / Offline meetings
+            </li>
+           </ul>
+           <p>When user clicks Filter button they should redirect to new page with filtered data</p>
+           <p><strong>Important!</strong> Filter information should be part of URL and if we change data in URL it should be affected on filter</p>
+           <p>Reset button should reset all filters and show all available data</p>
+           <hr />
+           <h2>Functional Requirements</h2>
+           <ul>
+            <li>
+                User should see some information about loading before data will be available, if data not returned user should see appropriate message
+            </li>
+            <li>
+              If user opened page and there is meeting that starts in less than 30 minutes they should be informed
+            </li>
+            <li>
+                Data should be cached for 10 minutes
+            </li>
+           </ul>
+           <hr />
+           <h2>Technical Requirements</h2>
+           <ul>
+            <li>App should be written in Typescript and with newer version of React</li>
+            <li>All Components should be reusable as much as possible</li>
+            <li>Presence of Unit Tests is a big plus</li>
+           </ul>
+           
+        
+      <div class="alert alert-success" role="alert">
+        After you done with task publish it on GitHub repository and send us the link. Good Luck! 
+       </div>
+          </div>
+        </div>
+      </div>
+      
+</body>
+</html>
