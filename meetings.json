@@ -1,0 +1,41 @@
+{
+    "data": {
+        "2022-03-04T17:35:00":{
+            "id": "111",
+            "name": "Sprint planning",
+            "duration": "30min",
+            "isOnline": "true"
+        },
+        "2022-03-04T13:10:00":{
+            "id": "110",
+            "name": "Q1 discussion",
+            "duration": "1h",
+            "isOnline": "true"
+        },
+        "2022-05-04T11:00:00":{
+            "id": "131",
+            "name": "Daily Standup",
+            "duration": "15min",
+            "isOnline": "true"
+        },
+        "2023-01-03T16:00:00":{
+          "id": "144",
+          "name": "Retrospective",
+          "duration": "1h 30min",
+          "isOnline": "true"
+        },
+        "2023-01-03T20:00:00":{
+            "id": "145",
+            "name": "Meeting with client",
+            "duration": "45min",
+            "isOnline": "true"
+        },
+        "2023-02-21T10:30:00":{
+            "id": "226",
+            "name": "Coffee break",
+            "duration": "10min",
+            "isOnline": "false"
+        }
+
+    }
+}
